@@ -1,8 +1,8 @@
 #include "Game.hpp"
 
-const sf::Time Game::TimePerFrame = sf::seconds(1.f/60.f);
+const sf::Time Game::TimePerFrame = sf::seconds(1.f / 60.f);
 
-Game::Game(): mWindow(sf::VideoMode(640, 480), "Your Awesome Game!")
+Game::Game() : mWindow(sf::VideoMode(640, 480), "SFML Game")
 {
 }
 
@@ -32,19 +32,18 @@ void Game::processEvents()
     {
         switch (event.type)
         {
-            case sf::Event::KeyPressed:
-                handlePlayerInput(event.key.code, true);
-                break;
-            case sf::Event::KeyReleased:
-                handlePlayerInput(event.key.code, false);
-                break;
-            case sf::Event::Closed:
-                mWindow.close();
-                break;
-            default:
-                break;
+        case sf::Event::KeyPressed:
+            handlePlayerInput(event.key.code, true);
+            break;
+        case sf::Event::KeyReleased:
+            handlePlayerInput(event.key.code, false);
+            break;
+        case sf::Event::Closed:
+            mWindow.close();
+            break;
+        default:
+            break;
         }
-
     }
 }
 
@@ -65,10 +64,16 @@ void Game::render()
 
 void Game::handlePlayerInput(sf::Keyboard::Key key, bool isPressed)
 {
-    // TODO: Key events for your game
-    // Example:
-    // if (key == sf::Keyboard::W)
-    // {
-    //     mIsMovingUp = isPressed;
-    // }
+    if (key == sf::Keyboard::W)
+    {
+    }
+    if (key == sf::Keyboard::S)
+    {
+    }
+    if (key == sf::Keyboard::A)
+    {
+    }
+    if (key == sf::Keyboard::D)
+    {
+    }
 }
