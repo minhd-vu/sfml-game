@@ -2,8 +2,7 @@
 
 const sf::Time Game::TimePerFrame = sf::seconds(1.f/60.f);
 
-Game::Game()
-: mWindow(sf::VideoMode(640, 480), "Your Awesome Game!")
+Game::Game(): mWindow(sf::VideoMode(640, 480), "Your Awesome Game!")
 {
 }
 
