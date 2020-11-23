@@ -1,26 +1,9 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/minhd-vu/sfml-game">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">SFML Game</h3>
-
   <p align="center">
     Game made with SFML
-    <br />
-    <a href="https://github.com/minhd-vu/sfml-game"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/minhd-vu/sfml-game">View Demo</a>
     ·
@@ -63,12 +46,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`minhd-vu`, `sfml-game`, `twitter_handle`, `email`, `SFML Game`, `Game made with SFML`
-
 
 ### Built With
 
@@ -86,9 +63,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* sfml
   ```sh
-  npm install npm@latest -g
+  sudo apt install -y libsfml-dev
   ```
 
 ### Installation
@@ -98,9 +75,13 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/minhd-vu/sfml-game.git
    ```
 2. Install NPM packages
-   ```sh
-   npm install
-   ```
+    ```sh
+   make
+    ```
+3. Play the game
+    ```sh
+    ./bin/game.exe
+    ```
 
 
 
@@ -152,17 +133,3 @@ Project Link: [https://github.com/minhd-vu/sfml-game](https://github.com/minhd-v
 * []()
 * []()
 * []()
-
-
-[contributors-shield]: https://img.shields.io/github/contributors/minhd-vu/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/minhd-vu/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/minhd-vu/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/minhd-vu/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/minhd-vu/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/minhd-vu/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/minhd-vu/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/minhd-vu/repo/issues
-[license-shield]: https://img.shields.io/github/license/minhd-vu/repo.svg?style=for-the-badge
-[license-url]: https://github.com/minhd-vu/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/minhd-vu
