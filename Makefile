@@ -12,7 +12,7 @@ INCLUDE = $(addprefix -I,$(INCDIR))
 CFLAGS = $(OPTS) $(INCLUDE) $(DEBUG)
 LIBS = -lsfml-graphics -lsfml-window -lsfml-system
 
-TARGET = $(BINDIR)/game.exe
+TARGET = $(BINDIR)/game
 
 all: $(TARGET)
 
