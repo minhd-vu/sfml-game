@@ -1,9 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">SFML Game</h3>
+  <h1 align="center">SFML Game</h1>
   <p align="center">
-    Game made with SFML
+    Dockerized SFML Game
     <br />
     <a href="https://github.com/minhd-vu/sfml-game">View Demo</a>
     ·
@@ -49,10 +49,7 @@
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [SFML]()
 
 
 <!-- GETTING STARTED -->
@@ -62,7 +59,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * sfml
   ```sh
   sudo apt install -y libsfml-dev
@@ -87,11 +83,6 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 
 
 <!-- ROADMAP -->
@@ -130,6 +121,4 @@ Project Link: [https://github.com/minhd-vu/sfml-game](https://github.com/minhd-v
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Minh Vu]()
